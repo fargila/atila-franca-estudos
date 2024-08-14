@@ -16,5 +16,8 @@
     </li>
     <li>git config <b>--global</b>² alias.[nome para a configuração do alias] "[comando de execução]"
     >>> à partir do <i>alias</i> vai poder executar um comando desejado pelo nome dele. NOTA: todas 
-    essas configurações estão no arquivo ".gitconfig";</li>
+    essas configurações estão no arquivo ".gitconfig";
+    </li>
+    <li>git merge -m "Mergeie alguma branch com a main" [branch desejada];</li>
+    <li>git branch -d [branch que será deletada];</li>
 </ul>
