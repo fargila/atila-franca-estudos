@@ -14,6 +14,6 @@
             <li>git reset --hard [chaveDoCommit] -> deleted & volta para o commit anterior</li>
         </ul>
     </li>
-    <li>git config <b>--global</b>² alias.[nome para a configuração do alias] "[comando de execução]"</li>
-    <li>-> à partir do <i>alias</i> vai poder executar um comando desejado pelo nome dele</li>
+    <li>git config <b>--global</b>² alias.[nome para a configuração do alias] "[comando de execução]"
+    -> à partir do <i>alias</i> vai poder executar um comando desejado pelo nome dele
 </ul>
