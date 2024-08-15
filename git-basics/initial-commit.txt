@@ -1,1 +1,3 @@
 Our first step in Git! (Although I've already seen this...)
+
+Hello my friend, stop right there criminal scum!
