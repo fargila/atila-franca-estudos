@@ -11,5 +11,5 @@
     <li>git stash pop x >>> remove the xº stashed file and put it on the staged area;</li>
     <li>git stash clear >>> remove all the data from the stash;</li>
     <li>git reflog >>> check all of the previous commands in case of permanent lost via terminal;</li>
-    <li>git cherry-pick [ID of the head]</li>
+    <li>git cherry-pick [ID of the head] >>> Copy commit inclunding the changes made only in this commit as HEAD to ohter branch;</li>
 </ul>
