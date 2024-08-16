@@ -1,4 +1,5 @@
 # Comandos chaves vistos em aula
+<h2>git</h2>
 <ul>
     <li>git log <b>--oneline</b>¹ >>> Histórico de alterações;</li>
     <li>git restore --staged [Arquivo] >>> Restaurar na parte de <i>staged;</i></li>
@@ -20,4 +21,10 @@
     </li>
     <li>git merge -m "Mergeie alguma branch com a main" [branch desejada];</li>
     <li>git branch -d [branch que será deletada];</li>
+</ul>
+
+<h3>Obs.:</h3>
+<ul>
+    <li>[¹] Caso queira ver o histórico das ações linha por linha;</li>
+    <li>[²] --global serve para caso queira que essas configurações sejam para todos os integrantes do projeto;</li>
 </ul>
