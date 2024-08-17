@@ -1,4 +1,4 @@
-# Comandos chaves vistos em aula
+# Comandos chave vistos em aula
 
 
 <h2>git</h2>
@@ -39,7 +39,7 @@
     <li>git stash pop x >>> remove the xº stashed file and put it on the staged area;</li>
     <li>git stash clear >>> remove all the data from the stash;</li>
     <li>git reflog >>> check all of the previous commands in case of permanent lost via terminal;</li>
-    <li>git cherry-pick [ID of the head] >>> Copy commit inclunding the changes made only in this commit as HEAD to ohter branch;</li>
+    <li>git cherry-pick [ID of the head] >>> Copy commit inclunding the changes made only in this commit as HEAD to other branch;</li>
     <h2>git branch</h2>
     <li>git branch -a >>> Show all branches</li>
     <li>git branch -r >>> Show remote tracking branches</li>
