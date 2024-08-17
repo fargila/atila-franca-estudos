@@ -1,0 +1,5 @@
+_nome: Átila França do Nascimento;
+_idade: 22;
+_oQueEstouCursando: ciência da computação;
+_conhecimentoQuePossuo: GIT, Java, JavaScript, TypeScript, React.js, Inglês, Espanhol, Françês e blablabla;
+
