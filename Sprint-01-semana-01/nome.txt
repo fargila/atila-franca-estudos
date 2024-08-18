@@ -3,3 +3,4 @@ _idade: 22;
 _oQueEstouCursando: ciência da computação;
 _conhecimentoQuePossuo: GIT, Java, JavaScript, TypeScript, React.js, Inglês, Espanhol, Françês e blablabla;
 
+**_horasVagas:desenhar&jogar**
