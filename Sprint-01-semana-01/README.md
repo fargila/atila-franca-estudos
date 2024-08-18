@@ -49,4 +49,7 @@
     <li>git push -u origin feature-upstream;</li>
     <li>git branch --delete --remotes [nameOfTheTrackingBranch] >>> Deletes a remote tracking branch;</li>
     <li>git push origin --delete [nameOfTheRemoteBranch] >>> Deletes a remote branch;</li>
+<h3>Obs.:</h3>
+<p>As 10 atividades da Atividade semanal - 01 foram realizadas, mas não em ordem, pois já tinha feito um repositório e arquivo readme.md antes de isso ter sido requisitado.</p>
+
 </ul>
