@@ -1,0 +1,41 @@
+h1{
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+
+body{
+    padding: 50px;
+    background-color: pink;
+    color: black;
+    color: rgb(0, 200, 255);
+    font-family: cursive;
+    letter-spacing: 7px;
+    text-shadow: 1px 1px rgb(131, 0, 26);
+}
+
+h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.projects{
+
+    justify-content: center;
+}
+
+button{
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5%;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(80, 192, 217);
+}
