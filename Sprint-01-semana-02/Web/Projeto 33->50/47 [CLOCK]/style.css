@@ -1,0 +1,12 @@
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+#clock {
+  font-size: 5em;
+}

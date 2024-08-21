@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto 19->23</title>
+</head>
+<body>
+    <div>
+        <h1>Guess the number</h1>
+        <p>Guess the number between 1 and 100</p>
+        <input type="number" name="guess" id="guess">
+        <button onclick="_checkGuess()">Check</button>
+        <p class="message" id="message1"></p>
+    </div>
+    <div>
+        <h1>Age Check</h1>
+        <p>How old are you?</p>
+        <input type="tex" id="age-input">
+        <button id="check-button">Check</button>
+        <p class="message"></p>
+    </div>
+    <div>
+        <h1>Calculator</h1>
+        <input type="text" id="userNum1" placeholder="Enter first number">
+        <input type="text" id="userNum2" placeholder="Enter second number">
+        <select id="operator">
+            <option value="+">Addition (+)</option>
+            <option value="-">Subtraction (-)</option>
+            <option value="*">Multiplication (*)</option>
+            <option value="/">Division (/)</option>
+        </select>
+        <button id="calculate">Calculate</button>
+        <div id="result"></div>
+    </div>
+    <div>
+        <h1>Even Numbers</h1>
+        <input type="number" id="start0" placeholder="Enter start value">
+        <input type="number" id="end0" placeholder="Enter end value">
+        <button id="show" onclick="_showEvenNumbers()">Show</button>
+        <div id="output0"></div>
+    </div>
+    <div>
+        <h1>Odd Numbers</h1>
+        <input type="number" id="start1" placeholder="Enter start value">
+        <input type="number" id="end1" placeholder="Enter end value">
+        <button id="show" onclick="_showOddNumbers()">Show</button>
+        <div id="output1"></div>
+    </div>
+    <div>
+        <h1>Higher Number</h1>
+        <input type="number" id="num1" placeholder="Enter first number">
+        <input type="number" id="num2" placeholder="Enter second number">
+        <button id="show" onclick="_showHigherNumber()">Show Higher Number</button>
+        <div id="output2"></div>
+    </div>
+    <div>
+        <h1>If Else Example</h1>
+        <p>Enter a number between 1 and 10:</p>
+        <input type="number" id="numberInput">
+        <button id="checkButton">Check Number</button>
+        <div id="output"></div>
+    </div>
+
+    <!-- Projeto 28 -->
+    <div>
+        <h1>They are Beautiful Animals</h1>
+        <img src="images/image0.png" alt="Aves não voadoras" id="image">
+        <button id="button">Switch Image</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
