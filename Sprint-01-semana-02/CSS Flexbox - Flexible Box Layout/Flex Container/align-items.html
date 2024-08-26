@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Display-block</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <style>
+            .container{
+                border:solid 1px red;
+            }
+            .item{
+                border: solid 1px blue;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <h3>Align-items: stretch {padrão} - column wrap</h3>
+        <div 
+        class="container" 
+        style="
+        max-height: 120px;
+        min-height: 120px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start;
+        align-items: stretch;">
+
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+            <div class="item">Item 5</div>
+            <div class="item">Item 6</div>
+            <div class="item">Item 7</div>
+            
+            
+        </div>
+
+        <h3>Align-items: stretch {padrão} - row wrap</h3>
+        <div 
+        class="container" 
+        style="
+        min-height: 140px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: stretch;">
+
+            <div class="item">Item 1 - Multilinha</div>
+            <div class="item">Item 2 - Multilinha</div>
+            <div class="item">Item 3 - Multilinha</div>
+            <div class="item">Item 4 - Multilinha</div>
+            <div class="item">Item 5 - Multilinha</div>
+            <div class="item">Item 6 - Multilinha</div>
+            <div class="item">Item 7 - Multilinha</div>
+            
+        </div>
+
+
+        <h3>Justify-cotent: space-between - column wrap</h3>
+        <div 
+        class="container" 
+        style="
+        min-height: 100px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-evenly;">
+
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            
+        </div>
+
+        <script src="" async defer></script>
+    </body>
+</html>

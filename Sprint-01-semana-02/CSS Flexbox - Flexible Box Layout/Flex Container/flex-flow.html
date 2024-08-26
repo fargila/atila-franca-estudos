@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Display-block</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <style>
+            .container{
+                border:solid 1px red;
+            }
+            .item{
+                border: solid 1px blue;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <h3>Flex-flow: row - wrap</h3>
+        <div 
+        class="container" 
+        style="
+        max-height: 60px;
+        display: flex;
+        flex-flow: column wrap-reverse">
+
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+            <div class="item">Item 5</div>
+            
+        </div>
+
+        <h3>Flex-flow: row - nowrap</h3>
+        <div 
+        class="container" 
+        style="
+        max-height: 40px;
+        max-width: 40px;
+        display: flex;
+        flex-flow: row nowrap">
+
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+            <div class="item">Item 5</div>
+            
+        </div>
+
+        <h3>Flex-wrap: wrap-reverse - column</h3>
+        <div 
+        class="container" 
+        style="
+        max-height: 50px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        ">
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+            <div class="item">Item 5</div>
+            
+        </div>            
+        
+        <script src="" async defer></script>
+    </body>
+</html>

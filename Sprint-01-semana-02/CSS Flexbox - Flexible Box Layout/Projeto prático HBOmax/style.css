@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Gilroy-ExtraBold";
+    src: url("fonts/Gilroy-ExtraBold.ttf");
+}
+@font-face {
+    font-family: "Gilroy-Light";
+    src: url("fonts/Gilroy-Light.ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #030328;
+    font-family: "Gilroy-Light";
+}
+
+body, a{
+    color: #fff;
+}
+
+a{
+    font-family: "Gilroy-ExtraBold";
+    text-decoration: none;
+}
+
+#apresentacao{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+#barraNav{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    background-color: black;
+    flex-flow: row wrap;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+}
+
+#menu>a{
+    padding: 10px 26px;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+.chamadaAcao{
+    background-color: #B441F3;
+    border-radius: 40px;
+    display: block;
+}
+
+#chamada{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#promocional{
+    max-width: 300px;
+
+}
+#promocional>img{
+    max-width: 100%;
+}
+
+#acao{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 300px;
+    padding-bottom: 40px;
+}
+
+#acao>a{
+    padding: 10px 0px 10px 0px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    width: 220px;
+    align-self: center;
+}
+
+#acao>p{
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#apresentacao>video{
+    z-index: -1000;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Display-block</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <style>
+            .container{
+                border:solid 1px red;
+            }
+            .item{
+                border: solid 1px blue;
+            }
+        </style>
+
+    </head>
+    <body>
+
+        <h3>Align-content: space-evenly - column wrap</h3>
+        <div 
+        class="container" 
+        style="
+        min-height: 120px;
+        max-height: 120px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-between;
+        align-content: space-evenly;">
+
+            <div class="item">Item 1 - teste - teste</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+            <div class="item">Item 5</div>
+            <div class="item">Item 6</div>
+            <div class="item">Item 7</div>
+            <div class="item">Item 8</div>
+            <div class="item">Item 9</div>
+            <div class="item">Item 10</div>
+            <div class="item">Item 11</div>
+            <div class="item">Item 12</div>
+            <div class="item">Item 13</div>
+            
+        </div>
+
+        <h3>Align-content: space-evenly - row wrap</h3>
+        <div 
+        class="container" 
+        style="
+        min-height: 120px;
+        max-height: 120pxs;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-evenly;">
+
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3<br>teste<br>teste</bt></div>
+            <div class="item">Item 4</div>
+            <div class="item">Item 5</div>
+            <div class="item">Item 6</div>
+            <div class="item">Item 7</div>
+            <div class="item">Item 8</div>
+            <div class="item">Item 9</div>
+            <div class="item">Item 10</div>
+            <div class="item">Item 11</div>
+            <div class="item">Item 12</div>
+            <div class="item">Item 13</div>
+            
+        </div>
+
+        <h3>Align-content: space-around- column wrap</h3>
+        <div 
+        class="container" 
+        style="
+        min-height: 120px;
+        max-height: 120px;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: space-between;
+        align-content: space-around;">
+
+            <div class="item">Item 1 - teste - teste</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3</div>
+            <div class="item">Item 4</div>
+            <div class="item">Item 5</div>
+            <div class="item">Item 6</div>
+            <div class="item">Item 7</div>
+            <div class="item">Item 8</div>
+            <div class="item">Item 9</div>
+            <div class="item">Item 10</div>
+            <div class="item">Item 11</div>
+            <div class="item">Item 12</div>
+            <div class="item">Item 13</div>
+            
+        </div>
+
+        <h3>Align-content: space-around - row wrap</h3>
+        <div 
+        class="container" 
+        style="
+        min-height: 120px;
+        max-height: 120pxs;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: space-around;">
+
+            <div class="item">Item 1</div>
+            <div class="item">Item 2</div>
+            <div class="item">Item 3<br>teste<br>teste</bt></div>
+            <div class="item">Item 4</div>
+            <div class="item">Item 5</div>
+            <div class="item">Item 6</div>
+            <div class="item">Item 7</div>
+            <div class="item">Item 8</div>
+            <div class="item">Item 9</div>
+            <div class="item">Item 10</div>
+            <div class="item">Item 11</div>
+            <div class="item">Item 12</div>
+            <div class="item">Item 13</div>
+            
+        </div>
+  
+        <script src="" async defer></script>
+    </body>
+</html>
