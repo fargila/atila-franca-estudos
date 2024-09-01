@@ -488,6 +488,10 @@ class ContaBancaria {
     }
     
 }
+
+conta = new ContaBancaria("123-4", 10000)
+conta.depositar(1500)
+conta.sacar(500)
 class Livro {
     constructor(titulo, autor, disponivel){
         this.titulo = titulo
