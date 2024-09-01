@@ -474,53 +474,22 @@ class ContaBancaria {
     }
     
     depositar(valor){
-        this.saldo += valor
+        let saldoAtual = this.saldo += valor
+        return saldoAtual
     }
     sacar(valor){
-        if(valor <= this.saldo){
-            this.saldo -= valor
+        if(this.saldo >= valor){
+            let saldoAtual = this.saldo -= valor
+            return saldoAtual
         }
         else
-            console.log("Sai daqui, seu pobre!")
+            return console.log("Não é possível realizar o saque!")
     }
     consultarSaldo(){
-        console.log(`O saldo atual da conta é R$${this.saldo.toFixed(2)}`)
+        return console.log(this.saldo)
     }
     
 }
-
-conta = new ContaBancaria("123-4", 10000)
-conta.depositar(1500)
-conta.sacar(500)
-class Livro {
-    constructor(titulo, autor, disponivel){
-        this.titulo = titulo
-        this.autor = autor
-        this.disponivel = disponivel
-    }
-    
-    emprestar(){
-        if(this.disponivel){
-            !this.disponivel
-        }
-        else
-            console.log("O livro não está disponível")
-    }
-    devolver(){
-        if(!this.disponivel){
-            this.disponivel
-        }
-        else
-            console.log("O livro já está presente conosco")
-    }
-    consultarDisponibilidade(){
-        return console.log(this.disponivel)
-    }
-}
-
-let livro1 = new Livro("Amar é estranho", "Cornélius", true)
-livro1.consultarDisponibilidade()
-
 
 //-----------------------------------------------------------------
 //Ex.41
