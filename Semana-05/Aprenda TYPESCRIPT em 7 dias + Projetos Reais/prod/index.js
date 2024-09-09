@@ -81,3 +81,9 @@ let productPrice;
 let productName;
 productPrice = 10;
 productName = 'Livro bom';
+const e1 = {
+    firstName: 'Andre',
+    age: 18,
+    id: 222,
+    role: 'front-end'
+};
