@@ -1,7 +1,6 @@
 "use strict";
 console.log('Hi there you modafocka!!!!');
 let a = 10;
-// a = 'Yadriha'
 let b = 'Andre';
 function add(num1, num2) {
     return num1 + num2;
@@ -13,15 +12,9 @@ let item = 'laranja';
 let inStock = true;
 let value;
 value = 10;
-// value = 'Andre'
 let values = [10, 20, 40, 69];
-// Abacaxi, 3, true
 let itens = ['Abacaxi', 3, true, 2];
 itens[1].toLocaleString;
-// const admin = 1
-// const read = 2
-// const backup = 3
-// const frontUIUX = 4
 var Role;
 (function (Role) {
     Role[Role["admin"] = 1] = "admin";
@@ -38,7 +31,6 @@ console.log(user);
 function adicao(num1, num2) {
     return num1 + num2;
 }
-// adicao('s', 10)
 function resultado(price) {
     console.log('O resultado é: ' + price);
 }
@@ -60,9 +52,6 @@ if (itemInput === 'string') {
 function generateError(message, code) {
     throw { message: message, errorCode: code };
 }
-//Don't put anything anylonger in the console type of sutff
-// generateError('The application crashed', 500)
-// console.log(generateError('The application crashed', 500))
 function userInput(input1, input2) {
     let result;
     if (typeof input1 === 'number' && typeof input2 === 'number') {
@@ -87,3 +76,58 @@ const e1 = {
     id: 222,
     role: 'front-end'
 };
+let code = 44;
+console.log(code);
+class Users {
+    constructor(num, bal) {
+        this.name = num;
+        this.balance = bal;
+    }
+    addMoney(amount) {
+        this.balance += amount;
+    }
+}
+const user1 = new Users('José', 99);
+const user2 = new Users('Brutus', 10000);
+user1.addMoney(666);
+user2.addMoney(Math.PI);
+console.log(user1);
+console.log(user2);
+let product1;
+product1 = {
+    name: 'Banana',
+    price: 10,
+    itemPurchased(message) { console.log(message + this.name + '.'); }
+};
+product1.itemPurchased('You just bought a ');
+class HotelRooms {
+}
+let room = new HotelRooms();
+room.A201 = 'Maria Clara';
+room.A240 = 'Julianus Carlus';
+room.B101 = 'Kevin Levin';
+console.log(room);
+class Person1 {
+    constructor(firstName, lastName, age) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.age = age;
+    }
+    get greet() {
+        return `${this.firstName} ${this.lastName}`;
+    }
+}
+class Clients extends Person1 {
+    get greet() {
+        return `Dear ${super.greet}.`;
+    }
+}
+class Staff extends Person1 {
+    get greet() {
+        return `Hi there ${super.greet}!`;
+    }
+}
+let client1 = new Clients('Jão', 'Iacono', 44);
+let staff1 = new Staff('Anna', 'Morena', 33);
+console.log(client1.greet);
+console.log(staff1.greet);

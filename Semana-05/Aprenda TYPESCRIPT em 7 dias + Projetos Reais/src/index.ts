@@ -46,7 +46,7 @@ function resultado(price: number){
 }
 resultado(adicao(6, 3))
 
-//--Alias Type of stuff ------------------------------
+//--Alias Type of stuff --------------------------------------------------------------------------------------------------
 type Usuarios = {
      firstName: string,
     age: number
@@ -104,3 +104,90 @@ const e1: employee = {
     id: 222,
     role: 'front-end'
 }
+
+let code: number = 44
+console.log(code)
+
+//I hate this place...
+//POO  --------------------------------------------------------------------------------------------------
+
+class Users {
+    public  name: string
+    private balance: number
+
+    constructor(num: string, bal: number){
+        this.name    = num
+        this.balance = bal
+    }
+    
+    addMoney(amount: number){
+        this.balance += amount
+    }
+}
+const user1 = new Users('José', 99)
+const user2 = new Users('Brutus', 10000)
+
+// user1.balance = 22.99
+user1.addMoney(666)
+user2.addMoney(Math.PI)
+console.log(user1)
+console.log(user2)
+
+//Interfaces --------------------------------------------------------------------------------------------------
+interface Item{
+    name: string
+    price: number
+
+    itemPurchased(message: string): void
+}
+
+let product1: Item
+product1 = {
+    name: 'Banana',
+    price: 10,
+    itemPurchased(message: string) { console.log(message + this.name + '.')}
+}
+product1.itemPurchased('You just bought a ')
+
+/*
+public    ->  pode alterar e acessar fora da classe
+readonly ->  pode acessar, mas não pode alterar fora da classe
+private   ->  não pode acessar, nem alterar fora da classe
+*/
+
+class HotelRooms {
+    [roonNumber: string]: string
+}
+let room = new HotelRooms()
+
+room.A201 = 'Maria Clara'
+room.A240 = 'Julianus Carlus'
+room.B101 = 'Kevin Levin'
+
+console.log(room)
+
+class Person1 {
+    constructor(public firstName: string, public lastName: string, public age: number) {}
+
+    get greet(){
+        return `${this.firstName} ${this.lastName}`
+    }
+}
+
+//Cliente do banco
+class Clients extends Person1 {
+    override get greet(){
+        return `Dear ${super.greet}.`
+    }
+}
+//Funcionário do banco
+class Staff extends Person1 {
+    override get greet(){
+        return `Hi there ${super.greet}!`
+    }
+}
+let client1 = new Clients('Jão', 'Iacono', 44)
+let staff1 = new Staff('Anna', 'Morena', 33)
+
+console.log(client1.greet)
+console.log(staff1.greet)
