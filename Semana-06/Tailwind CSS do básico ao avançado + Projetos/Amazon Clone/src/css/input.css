@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.item-nav-2 {
+    @apply mr-4 border border-transparent rounded-sm px-2 py-1;
+}
+
+.item-nav-2:hover {
+    @apply border-white;
+}
+
+.addressHeader2Container {
+    @apply flex items-center border border-transparent rounded-sm px-2 py-2 md:py-0;
+}
+
+.addressHeader2Container:hover {
+    @apply border-white;
+}
+
+.contentHeader3 {
+    @apply  border-b-2 border-transparent  py-1 px-3;
+}
+
+.contentHeader3:hover {
+    @apply text-orange-650;
+}
+
+.btn30Gra {
+    @apply  text-sm md:text-xs bg-yellow-350 border 
+    border-yellow-700 rounded px-3 py-3 md:py-0 md:ml-10 
+    h-12 md:h-auto block md:flex items-center w-full md:w-auto text-center;
+}
