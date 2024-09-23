@@ -11,7 +11,7 @@ export interface Joke {
 
 interface FetchApiProps {
     jokes?: Joke | null
-    onSuccess: (data: Joke, action: 'add' | 'update' | 'delete') => void
+    onSuccess: (data: Joke, action: 'add' | 'delete') => void
 }
 
 const FetchApi: React.FC<FetchApiProps> = ({ jokes, onSuccess }) => {
@@ -33,8 +33,8 @@ const FetchApi: React.FC<FetchApiProps> = ({ jokes, onSuccess }) => {
             toast.error("Não se pode fazer uma piada sem a piada ou muito menos a resposta.")
             return
         }
-        if(jokes) { onSuccess(newJoke, 'update') }
-        else { onSuccess(newJoke, 'add') }
+        //if(jokes) { onSuccess(newJoke, 'update') }
+        onSuccess(newJoke, 'add')
 
         setJoke('')
         setResponse('')

@@ -7,11 +7,11 @@ import styles from '../styles/jokeChoices.module.css'
 interface JokeChoicesProps {
     jokes: Joke[]
     onAdd: (joke: Joke) => void
-    onUpdate: (joke: Joke) => void
+    //onUpdate: (joke: Joke) => void
     onDelete: (id: number | undefined | null) => void
 }
 
-const JokeChoices: React.FC<JokeChoicesProps> = ({ jokes, onAdd, onUpdate, onDelete }) => {
+const JokeChoices: React.FC<JokeChoicesProps> = ({ jokes, onAdd, onDelete }) => {
 
     const handleSuccess = (joke: Joke, operation: 'add' | 'update' | 'delete') => {
         if(operation === 'add') {
@@ -22,10 +22,10 @@ const JokeChoices: React.FC<JokeChoicesProps> = ({ jokes, onAdd, onUpdate, onDel
             onAdd(joke)
             toast.success('Piada adicionada com sucesso!')
         }
-        else if(operation === 'update') { 
-            onUpdate(joke)
-            toast.success('Piada atualizada com sucesso!')
-        }
+        // else if(operation === 'update') { 
+        //     onUpdate(joke)
+        //     toast.success('Piada atualizada com sucesso!')
+        // }
         else if(operation === 'delete') { 
             onDelete(joke.id)
             toast.success('Piada deletada com sucesso!')

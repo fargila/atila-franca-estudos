@@ -22,9 +22,9 @@ const App: React.FC = () => {
     setJokes((prevJokes) => [...prevJokes, newJoke])
   }
 
-  const handUpdateJoke = (updateJoke: Joke) => {
-    setJokes((prevJokes) => prevJokes.map((joke) => (joke.id === updateJoke.id ? updateJoke : joke)))
-  }
+  // const handUpdateJoke = (updateJoke: Joke) => {
+  //   setJokes((prevJokes) => prevJokes.map((joke) => (joke.id === updateJoke.id ? updateJoke : joke)))
+  // }
 
   const handlDeleteJoke = (id: number | null | undefined) => {
     setJokes((prevJokes) => prevJokes.filter((joke) => joke.id !== id))
@@ -38,7 +38,7 @@ const App: React.FC = () => {
     <JokeChoices 
     jokes={jokes}
     onAdd={handleAddJoke}
-    onUpdate={handUpdateJoke}
+    //onUpdate={handUpdateJoke}
     onDelete={handlDeleteJoke}/>
   </div>
     <ToastContainer/>
