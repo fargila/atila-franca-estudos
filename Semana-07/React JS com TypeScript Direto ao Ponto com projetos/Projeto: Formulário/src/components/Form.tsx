@@ -1,5 +1,5 @@
 import { useForms } from '../hooks/useForms.tsx'
-import { FormSchema } from '../schemas/formSchema'
+import { FormSchema } from '../schemas/formSchema.ts'
 
 const Form = () => {
   const {register, handleSubmit, errors} = useForms()
