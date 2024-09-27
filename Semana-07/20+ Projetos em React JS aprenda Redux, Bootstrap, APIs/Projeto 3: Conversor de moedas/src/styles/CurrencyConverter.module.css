@@ -1,0 +1,41 @@
+* {
+    font-size: 25px;
+    font-family: "Jacquarda Bastarda 9", serif;
+}
+
+.converter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: rgb(255, 96, 96);
+    color: bisque;
+    width: 400px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 12px rgb(221, 51, 255);
+}
+
+.converter h2 {
+    color: rgb(255, 186, 186);
+}
+
+select {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: rgb(155, 23, 23);
+}
+
+.converter select {
+    padding: 0.7rem 1rem;
+    width: 100%;
+}
+
+input {
+    height: 2rem;
+    border: none;
+    background-color: antiquewhite;
+    color: red;
+    border-radius: 1.5rem;
+    width: 100%;
+}
