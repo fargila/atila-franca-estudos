@@ -1,0 +1,15 @@
+.toolbar {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+    height: 70%;
+
+  }
+  
+  .toolbar button {
+    padding: 10px 20px;
+    width: 8rem
+  }
+  
