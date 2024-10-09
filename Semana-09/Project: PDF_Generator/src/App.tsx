@@ -1,10 +1,14 @@
+import GenPDF from "./components/GenPDF"
 
 function App() {
 
   return (
-    <>
-      <div className='bg-slate-600'><p className="font-bold text-pink-800">adwqe</p></div>
-    </>
+   <div className="flex flex-col items-center">
+      <h1 className="font-bold text-3xl">PDF Generator</h1>
+      <div className="p-5 max-w-500 m-0 shadow-md bg-white">
+        <GenPDF />
+      </div>
+   </div>
   )
 }
 
