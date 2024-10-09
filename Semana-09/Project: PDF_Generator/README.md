@@ -61,7 +61,7 @@ http://localhost:5173
 
 ---
 
-### Autores / Authors
+### Autor / Author
 Átila França do Nascimento <br>
 <br>
 October 2024
