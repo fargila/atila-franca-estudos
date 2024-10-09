@@ -1,10 +1,8 @@
-# UOL Comics – Compass UOL 🧭
+# Generador de arquivos pdf simples / Simple pdf file generator
 
-O projeto foi desenvolvido como o 2° desafio do Programa de Bolsas Compass UOL, fazendo a implementação da API da Marvel Comics para gerar uma plataforma de e-commerce, em React.
+PT-BR: O projeto foi desenvolvido como  uma exercício de orientação e prática para reforçar os conhecimentos em TypeScript, React e construção de arquivos em pdf.
 
-EN: The project was developed as the 1st challenge of the Compass UOL Scholarship Program, implementing the Marvel Comics API to create an e-commerce platform using React.
-
-API LINK: https://developer.marvel.com/docs
+EN: The project was developed as an exercise for guidance and practice to reinforce knowledge in TypeScript, React, and PDF file generation.
 
 ---
 
