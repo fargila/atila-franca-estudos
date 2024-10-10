@@ -9,14 +9,14 @@ EN: Mini-project with a table containing data sorted by name in alphabetical ord
 ## Componentes / Components
 
 PT-BR:
-- Generador de PDF
-- Importar imagem
-- Estilizar Texto
+- Barra de pesquisa
+- Tabela titular
+- Tabela de linhas
 
 EN:
-- GenPDF
-- ImageUpload
-- TextStyleConfig
+- Search Bar
+- Table Header
+- Table Row
 
 ---
 
