@@ -1,50 +1,65 @@
-# React + TypeScript + Vite
+# Calculadora de Impostos / Taxes Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PT-BR: Calculadora simples para mostrar o resultado do imposto a ser pago baseado na renda mensal.
 
-Currently, two official plugins are available:
+EN: Simple calculator to show the amount of tax to be paid based on monthly income.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Componentes / Components
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+PT-BR:
+- Formulário de impostos
+- Resultado dos impostos
 
-- Configure the top-level `parserOptions` property like this:
+EN:
+- Tax Form
+- Tax Report
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## Como usar / How to run
+
+**Pré-requisitos / Pre-requisites**
+- [Node.js](https://nodejs.org/en)
+
+**1. Clone o repositório / Clone the repository**
+```
+git clone https://github.com/fargila/atila-franca-estudos
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+**2. Abra a pasta em uma IDE e instale as dependências / Open the folder in an IDE and install the dependencies**
 ```
+npm install
+```
+
+**3. Navegue até o diretório do projeto / Navigate into the project directory**
+```
+cd Semana-09/Project: Taxes_Calculator/
+```
+
+**4. Abra o terminal integrado e execute o seguinte comando para iniciar o servidor / Open the integrated terminal and execute the following command to start the server**
+```
+npm run dev
+```
+
+**5. O projeto estará rodando no endereço seguinte / The project will be running in the following URL**
+```
+http://localhost:5173
+```
+
+---
+
+## Capturas de tela / Screenshots
+
+### Desktop:
+
+<img src='./src/assets/images/Captura de tela 2024-10-09 142421.png' alt='Imagem do projeto'>
+<br>
+
+---
+
+### Autor / Author
+Átila França do Nascimento <br>
+<br>
+October 2024
