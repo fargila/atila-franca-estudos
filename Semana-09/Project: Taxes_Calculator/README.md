@@ -54,7 +54,7 @@ http://localhost:5173
 
 ### Desktop:
 
-<img src='./src/assets/images/Captura de tela 2024-10-09 142421.png' alt='Imagem do projeto'>
+<img src='./src/assets/images/taxesCal.png' alt='Imagem do projeto'>
 <br>
 
 ---
