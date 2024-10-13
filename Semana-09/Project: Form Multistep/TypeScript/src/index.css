@@ -1,0 +1,17 @@
+* {
+  font-family: "Barlow", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+p {
+  color: #777;
+}
